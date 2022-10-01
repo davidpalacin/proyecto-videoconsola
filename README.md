@@ -1,3 +1,3 @@
 # proyecto-videoconsola
-David Palacin Gimene's APP!!!
+David Palacin Gimenez's CSS Project!!!
 Built using HTML, CSS and JS
