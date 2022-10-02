@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Videoconsola</title>
 </head>
 <body>
     <div class="main">
+        <audio style="display: none;" controls>
+            <source src="audio/fight.mp3" type="audio/ogg">
+        </audio> 
+        <div class="powerButton">
+            On/Off
+        </div>
         <div class="externalStructure">
             <div class="screen">
+                <div class="powerLed"><span style="position: absolute; margin-top: 8px; color: grey; font-size: small;">power</span> </div>
+
                 <div class="usableScreen"></div>
                 <div class="consoleName">
-                    GAMEBOY COLOR
+                    <span style="color: grey;">GAMEBOY</span> C<span style="color: blue;">O</span><span style="color: green;">L</span><span style="color: yellow;">O</span><span style="color: aqua;">R</span>
                 </div>
             </div>
             <div class="brandName">
